@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Sidrac</title>
+  <!--my own CSS-->
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/themes.css">
+  <link rel="stylesheet" href="./css/formulary.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  <!--fontawesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--SCRIPTS-->
+  <script src="./javascript/TextAnimations.js"></script>
+  <script src="./javascript/ToggleView.js"></script>
+  <script src="./javascript/ContactForm.js"></script>
+
+</head>
+<body>
+  <header>
+    <div id="upperTab">
+      <a href="english.html" id="langButton">English</a>
+      <ul id="navigationList">
+        <a href="#projects"><li class="navigationListElement">Proyectos</li></a>
+        <a href="#skills"><li class="navigationListElement">Lenguajes</li></a>
+        <a href="#approach"><li class="navigationListElement">Enfoque</li></a>
+        <a href="#contact"><li class="navigationListElement">Contacto</li></a>
+      </ul>
+    </div>
+  </header>
+  
+  <div id="content">
+    <section id="start">
+      <h1>Erick Sidrac, Desarrollador</h1>
+      <div id="upperSection">
+        <p id="headerText"></p>
+        <div id="hero-image-container">
+          <img src="./assets/Monitor.png" alt="Monitor" id="MonitorGif">
+          <img src="./assets/hearth.png" alt="Heart" id="heartGif">
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Proyectos destacados</h2>
+      <div class="proyects_container">
+
+        <div class="project fade-in">
+          <div class="preview">
+            <button class="toggleButton"><i class="fa-solid fa-caret-down"></i></button>
+            <h3>Control escolar familiar: Desarrollador Full Stack</h3>
+            <p>Sistema de asistencia realizado con sistemas de terceros y reconocimiento facial</p>
+          </div>
+          <div class="fullViewContent">
+              <h3>Objetivo:</h3>
+            <p>Brindar una plataforma para padres de familia que les permita consultar las asistencias de los alumnos en todo momento</p>
+            <h3>Tecnologías clave:</h3>
+            <p>Python Flask, Javascript, Mongodb, HTML y CSS</p>
+            <p>Objetivos logrados:</p>
+            <ul>
+              <li>Manejo de edge cases y errores silenciosos</li>
+              <li>Implementación de base de datos externa y respaldos</li>
+              <li>Optimización en tiempos de proceso de datos</li>
+              <li>Protección a la base de datos contra inserciones y vulnerabilidades</li>
+              <li>Documentación reproducible con Postman</li>
+            </ul>
+            <img class="proyect-photo" src="./assets/Captura de pantalla de 2025-12-12 21-36-48.png" alt="Control escolar familiar">
+            <a href="https://github.com/Sidrac1/Control-escolar-familiar"><button class="repository-link">Repositorio del proyecto</button></a>
+          </div>
+        </div>
+
+        <div class="project fade-in">
+          <div class="preview">
+            <button class="toggleButton"><i class="fa-solid fa-caret-down"></i></button>
+            <h3>Trash & Track: Desarrollador Backend</h3>
+            <p>Sistema de monitoreo para detección y prevención de riesgos con materiales peligrosos</p>
+          </div>
+          <div class="fullViewContent">
+              <h3>Objetivo:</h3>
+            <p>Crear una herramienta para mejorar la gestión y manejo de residuos tóxicos</p>
+            <h3>Tecnologías clave:</h3>
+            <p>C++, C#, MongoDB, Mysql, HTML, CSS, TypeScript, React Native</p>
+            <p>Objetivos logrados:</p>
+            <ul>
+              <li>Monitoreo de riesgos en tiempo real</li>
+              <li>Prevención de accidentes en el manejo de materiales peligrosos</li>
+              <li>implementación de nuevas tecnologías en el proceso de recolección</li>
+            </ul>
+            <img class="proyect-photo" src="./assets/TyT.jpeg" alt="Trash & Track">
+            <a href="https://github.com/AngelGameros/TrashAndTrack"><button class="repository-link">Repositorio del proyecto</button></a>
+          </div>
+        </div>
+
+        <div class="project fade-in">
+          <div class="preview">
+            <button class="toggleButton"><i class="fa-solid fa-caret-down"></i></button>
+            <h3>Artemis: Sistema de seguridad</h3>
+            <p>Sistema de seguridad y control de accesos</p>
+          </div>
+          <div class="fullViewContent">
+              <h3>Objetivo:</h3>
+            <p>Crear una herramienta barata para la protección y monitoreo de negocios</p>
+            <h3>Tecnologías clave:</h3>
+            <p>Mysql, React Native, C++</p>
+            <p>Objetivos logrados:</p>
+            <ul>
+              <li>Monitoreo de rutas de rondines nocturnos</li>
+              <li>Control de acceso por medio de tarjetas RFID asignadas por el administrador</li>
+              <li>Cierre automático de puertas por medio de controles magnéticos</li>
+              <li>envío de reportes automáticos</li>
+            </ul>
+            <img id="ArtemisPhoto" class="proyect-photo" src="./assets/artemis_icon.png" alt="Artemis Sistema de seguridad">
+            <a href="https://github.com/Sidrac1/Artemis-master"><button class="repository-link">Repositorio del proyecto</button></a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Lenguajes que domino</h2>
+        <div id="lenguage-icons">
+          <img class="programIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"  height="40" alt="javascript logo"  />
+          <img class="programIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+          <img class="programIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp logo"  />
+          <img class="programIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+          <img class="programIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+          <img class="programIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
+          <img class="programIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
+          <img class="programIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+          <img class="programIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+          <img class="programIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+          <img class="programIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongo logo"  />
+        </div>
+
+    </section>
+
+    <section id="approach">
+      <h2>Mi enfoque</h2>
+      <div class="project">
+        <p>Me apasiona construir sistemas que resisten los datos impredecibles del mundo real. Documentar errores raros, validar eventos antes de insertarlos, y presentar la información de forma clara son parte de mi día a día.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contáctame</h2>
+      <div id="requests">
+        <div id="form-status" style="margin-top: 20px; display: none;"></div>
+
+        <form
+          action="https://formspree.io/f/mvzgqnre"
+          class="fs-form"
+          method="POST"
+          id="contact-form"
+        >
+          <div class="fs-field">
+            <label class="fs-label" for="name">Nombre</label>
+            <input class="fs-input" id="name" name="name" required />
+          </div>
+          <div class="fs-field">
+            <label class="fs-label" for="email">Email</label>
+            <input class="fs-input" id="email" name="email" required />
+            <p class="fs-description">
+              Te daré seguimiento lo más pronto posible
+            </p>
+          </div>
+          <div class="fs-field">
+            <label class="fs-label" for="message">Mensaje</label>
+            <textarea
+              class="fs-textarea"
+              id="message"
+              name="message"
+              required
+            ></textarea>
+            <p class="fs-description">¿Para qué soy bueno?</p>
+          </div>
+          <div class="fs-button-group">
+            <button id="submit-btn" class="fs-button" type="submit">Enviar</button>
+          </div>
+        </form>
+
+      </div>
+    </section>
+  </div>
+  </body>
+</html>

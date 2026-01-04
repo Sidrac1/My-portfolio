@@ -1,0 +1,66 @@
+/* ============================================================
+   TABLETS (Menos de 1024px)
+   ============================================================ */
+@media (max-width: 1024px) {
+    #hero-image-container {
+        width: 300px;
+    }
+    #heartGif {
+        width: 60px;
+    }
+    .proyect-photo {
+        max-width: 350px;
+    }
+}
+
+/* ============================================================
+   MÓVILES (Menos de 768px)
+   ============================================================ */
+@media (max-width: 768px) {
+    #upperSection {
+        flex-direction: column; /* Texto arriba, imagen abajo */
+        text-align: center;
+    }
+
+    #hero-image-container {
+        margin: 30px auto; /* Centrado automático */
+        width: 280px;
+    }
+
+    #headerText {
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    /* Reset de fotos de proyectos para que no floten */
+    .proyect-photo {
+        float: none;
+        display: block;
+        margin: 20px auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* El botón toggle ya no necesita ser absoluto */
+    .toggleButton {
+        position: static;
+        margin: 10px auto;
+        width: 100%;
+    }
+}
+
+/* ============================================================
+   MÓVILES PEQUEÑOS (Menos de 480px)
+   ============================================================ */
+@media (max-width: 480px) {
+    #hero-image-container {
+        width: 200px; /* Monitor más pequeño para pantallas mini */
+    }
+    #heartGif {
+        width: 40px;
+    }
+    #navigationList a li {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
